@@ -7,7 +7,7 @@ function sendMail() {
   };
 
   emailjs
-    .send("service_ejh0yw9", "template_7oh8huj", params)
+    .send("your service pin", "your template id", params)
     .then(function (response) {
       alert("Email sent successfully!");
       console.log("SUCCESS!", response.status, response.text);
